@@ -30,6 +30,7 @@ folium.Marker(location=[latitude, longitude],
               ).add_to(m)
 
 '''
+Caso prefira, aqui temos o marcador em circulo.
 folium.CircleMarker(
     location=[latitude, longitude],
     radius=50,
